@@ -1,0 +1,101 @@
+/* Large Tablet Devices */
+@media only screen and (max-width: 580px) {
+  /** DEFAULT **/
+  *,
+  *:before,
+  *:after {
+    transition: none;
+    -webkit-transition: none;
+    box-sizing: none;
+    -moz-box-sizing: none; }
+
+  html, body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    /* Webkit */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10  */ }
+
+  .container {
+    width: 100%;
+    padding: 0; }
+
+  .toggle-box {
+    position: fixed;
+    top: 55px;
+    z-index: 999; }
+
+  .page-header.sp_active {
+    position: fixed;
+    width: 100%;
+    z-index: 888; }
+
+  .main-wrapper .post-item .post-header {
+    margin: 0 10px 10px; }
+
+  .main-wrapper .post-item .post-setting, .follow-page {
+    margin: 10px;
+    width: auto; }
+
+  .main-wrapper .post-item .post-setting > ul li:hover {
+    opacity: 1; }
+
+  .page-nav ul li a:hover {
+    font-weight: 300; }
+
+  .comment-box .arrow {
+    left: 71%; }
+
+  .share-box .arrow {
+    left: 89%; }
+
+  .comment-single-post .comment-wrap {
+    padding: 10px 0; }
+
+  .page-upload .upload-form {
+    margin: 25px 10px; }
+
+  .upload-img .cancel-img {
+    padding: 0 10px; }
+
+  .overlay {
+    overflow-y: auto; }
+
+  .upload-options, .post-setting-wrap, .user-setting-wrap, .profile-options {
+    width: 90%;
+    margin: auto; }
+
+  .main-wrapper .post-item ul.post-tags {
+    padding: 5px 10px 0; }
+
+  .upload-options, .post-setting-wrap, .user-setting-wrap, .profile-options {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    bottom: 0px; }
+
+  #menu-toggle {
+    left: 10px; }
+
+  #menu-upload {
+    right: 10px; } }
+@media only screen and (max-width: 360px) {
+  .profile-header .profile-wrap {
+    padding-left: 95px; }
+    .profile-header .profile-wrap img.profile-featured, .profile-header .profile-wrap .dummy-featured {
+      width: 80px;
+      height: 80px !important;
+      border-radius: 40px; }
+
+  .comment-box form#comment-post-item .comment-info span {
+    display: block; }
+
+  .rewards-wrapper .achieve-items li img {
+    width: 80px; }
+
+  .rewards-wrapper .achieve-items li {
+    padding-left: 90px; } }
+
+/*# sourceMappingURL=media.css.map */
