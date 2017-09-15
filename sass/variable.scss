@@ -1,0 +1,118 @@
+/*
+	Theme Name	: Clinic Portal
+	Framework		: SCSS SASS
+*/
+
+/** VARIABLE **/
+$dfont: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic Pro W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "Raleway", sans-serif;
+$font-family:"Arial","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$dfsize: 14px;
+
+$dcolor: #000;
+$dcolor2: #fff;
+$dcolor3: #939598;
+$dcolor4: #bcbec0;
+$dcolor5: #f7f7f7;
+
+$pcolor: #fedc2e;
+$scolor: #000;
+$tcolor: #fcc800;
+$happy: #62cc25;
+$sad: #ff641f;
+$other: #0bd6b4;
+$errormsg: #ff0000;
+
+
+/** DEFAULT **/
+*,
+*:before,
+*:after {
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	position: absolute;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border:0;
+}
+
+a {
+	color: $dcolor;
+	text-decoration:none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 1.3;
+}
+
+h1 span {
+	font-size: 36px;
+	line-height: 0.9;
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 580px;
+	margin:0 auto;
+}
+
+.fleft {float:left;}
+.fright {float:right;}
+.dinline {display:inline-block;}
+.cfix {clear:both;overflow:hidden;display:block;}
+.arrow1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 0 8px 8px;
+	border-color: transparent transparent transparent rgba(247, 247, 247, 0.29);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.arrow2 {
+	width: 8px;
+	height: 8px;
+	border-right: 3px solid $dcolor2;
+	border-bottom: 3px solid $dcolor2;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+html, body {
+	font-family: $font-family;
+  font-size: $dfsize;
+  line-height: 1.6;
+	color: $dcolor;
+	font-weight: 300;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: $dcolor2;
+	width: 100%;
+	height: 100%;
+}
