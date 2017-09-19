@@ -11,7 +11,7 @@
 					<h1>UPLOAD IMAGE</h1>
 					<div class="upload-btn">
 						<img src="images/icon_upload.png" />
-						<span>CHOOSE FILE TO UPLOAD</span>
+						<span>CHOOSE FILE TO POST/UPLOAD</span>
 					</div>
 				</section>
 			</div>
